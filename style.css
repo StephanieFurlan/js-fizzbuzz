@@ -1,0 +1,75 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   height: 100vh;
+}
+
+.container {
+   padding: 20px;
+   border-radius: 10px;
+   text-align: center;
+   height: 20vh;
+}
+
+
+#surname {
+   margin: 10px 0;
+   padding: 10px 20px;
+   border-radius: 5px;
+   border: 2px solid #afeeee;
+}
+
+#add-surname {
+   margin: 10px 0;
+   padding: 10px 20px;
+   border-radius: 5px;
+   border: 2px solid black;
+   color: white;
+   background-color: #afeeee;
+}
+
+#add-container {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.list-wrapper {
+   height: 80vh;
+   overflow-y: scroll;
+   position: relative;
+}
+
+
+#surname-list__header {
+   position: fixed;
+   width: calc(100% - 15px);
+
+
+}
+
+#surname-list__body ,
+#surname-list__header{
+   display: flex;
+   flex-wrap: wrap;
+   list-style-type: none;
+}
+
+
+
+#surname-list__body li,
+#surname-list__header li {
+   flex: 0 0 50%;
+   border: 1px solid black;
+   padding: 10px;
+}
+
+#surname-list__header li {
+   background-color: #afeeee;
+}
