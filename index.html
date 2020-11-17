@@ -11,6 +11,48 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
    </head>
    <body>
+      <div class="minMax-container">
+         <div class="box">
+            <h2 id="title">Scegli un'intervallo</h2>
+            <div class="">
+               <label for="min">Min: </label>
+               <input type="number" id="min" name="min" min="1" max="10000">
+            </div>
+            <div class="">
+               <label for="max">Max: </label>
+               <input type="number" id="max" name="max" min="1" max="10000">
+            </div>
+         </div>
+         <div class="box">
+            <h2 id="title">Scegli due divisori diversi</h2>
+            <div class="">
+               <label for="div1">Primo divisore: </label>
+               <input type="number" id="div1" name="div1" min="1" max="10000">
+            </div>
+            <div class="">
+               <label for="div2">Secondo divisore: </label>
+               <input type="number" id="div2" name="div2" min="1" max="10000">
+            </div>
+         </div>
+         <div id="button-box" class="box">
+            <button id="show" type="button" name="button">Vai</button>
+         </div>
+         <ul id="legend" class="box">
+            <li id="first"></li>
+            <li id="second"></li>
+            <li id="both"></li>
+         </ul>
+      </div>
+
+
+
+
+      <ul id="numbers">
+
+      </ul>
+
+
+
 
 
 
